@@ -2,7 +2,7 @@
 import Frame from "./components/Frame.vue";
 
 function redirectToMain() {
-  window.location.href = "http://www.w3schools.com";
+  window.location.href = "https://blue.kumparan.com/image/upload/v1634025439/01gkk38w81p6gf02yzv7zzkep7.jpg";
 }
 </script>
 
@@ -11,7 +11,7 @@ function redirectToMain() {
     class="text-black"
     title="ikan mas"
     message="Ikan mas adalah ikan yang berwarna emas"
-    @masuk="redirectToMain"
+    @redirect="redirectToMain"
   >
     <template #image>
       <img
